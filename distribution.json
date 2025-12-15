@@ -12,7 +12,7 @@
       "name": "조선야화",
       "description": "joy Running Minecraft 1.21.4",
       "icon": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/serverIMG.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "joy1.mcv.kr",
       "minecraftVersion": "1.21.4",
       "discord": {
@@ -309,6 +309,26 @@
             "size": 2441,
             "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/voicechat-server.properties",
             "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4427,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 17304,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/servers.dat",
+            "path": "servers.dat"
           }
         },
         {
