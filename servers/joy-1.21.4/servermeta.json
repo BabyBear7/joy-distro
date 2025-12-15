@@ -7,9 +7,9 @@
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "joy1.mcv.kr",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "1450178441482862764",
+      "largeImageText": "조선야화 접속 중",
+      "largeImageKey": "joy"
     },
     "mainServer": true,
     "autoconnect": true

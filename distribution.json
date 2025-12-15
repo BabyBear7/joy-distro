@@ -9,10 +9,10 @@
   "servers": [
     {
       "id": "joy-1.21.4",
-      "name": "joy (Minecraft 1.21.4)",
+      "name": "조선야화",
       "description": "joy Running Minecraft 1.21.4",
       "icon": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/serverIMG.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "joy1.mcv.kr",
       "minecraftVersion": "1.21.4",
       "discord": {
