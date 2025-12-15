@@ -12,11 +12,11 @@
       "name": "조선야화",
       "description": "joy Running Minecraft 1.21.4",
       "icon": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/serverIMG.png",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "address": "joy1.mcv.kr",
       "minecraftVersion": "1.21.4",
       "discord": {
-        "shortId": "1450178441482862764",
+        "shortId": "joy",
         "largeImageText": "조선야화 접속 중",
         "largeImageKey": "joy"
       },
