@@ -1,0 +1,169 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "joy-1.21.4",
+      "name": "joy (Minecraft 1.21.4)",
+      "description": "joy Running Minecraft 1.21.4",
+      "icon": null,
+      "version": "",
+      "address": "joy1.mcv.kr",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "emotecraft.json",
+          "name": "emotecraft.json",
+          "type": "File",
+          "artifact": {
+            "size": 668,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/emotecraft.json",
+            "path": "config/emotecraft.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/iris-excluded.json",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 312,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "koreanpatch.json5",
+          "name": "koreanpatch.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1513,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/koreanpatch.json5",
+            "path": "config/koreanpatch.json5"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/sodium-fingerprint.json",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/sodium-mixins.properties",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 686,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/category-volumes.properties",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/player-volumes.properties",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/translations.properties",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4898,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2441,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/voicechat-server.properties",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 17256,
+            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/servers.dat",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "file:///D:/helios/joy/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "",
+    "name": "joy (Minecraft 1.21.4)",
+    "description": "joy Running Minecraft 1.21.4",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "joy1.mcv.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt",
+		  "config/*",
+		  "config/**/*",
+		  "servers.dat"
+		]
+	}
+  ]
+}
