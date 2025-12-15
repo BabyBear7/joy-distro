@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1450178441482862764",
+    "clientId": "1450205781638250608",
     "smallImageText": "조선야화 접속 중",
     "smallImageKey": "joy"
   },
@@ -12,7 +12,7 @@
       "name": "조선야화",
       "description": "joy Running Minecraft 1.21.4",
       "icon": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/serverIMG.png",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "address": "joy1.mcv.kr",
       "minecraftVersion": "1.21.4",
       "discord": {
