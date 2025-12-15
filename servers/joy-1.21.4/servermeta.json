@@ -14,6 +14,9 @@
     "mainServer": true,
     "autoconnect": true
   },
+  "fabric": {
+    "version": "0.17.2"
+  },
   "untrackedFiles": [
 	{
 		"appliesTo": ["files"],
