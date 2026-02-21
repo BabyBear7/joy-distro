@@ -12,7 +12,7 @@
       "name": "조선야화",
       "description": "joy Running Minecraft 1.21.4",
       "icon": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/serverIMG.png",
-      "version": "1.1.0",
+      "version": "1.0.9",
       "address": "chosun.mcv.kr",
       "minecraftVersion": "1.21.4",
       "discord": {
@@ -345,19 +345,25 @@
       ]
     },
     {
-      "id": "joytest-1.21.4",
-      "name": "조선야화_테스트섭",
-      "description": "joy Running Minecraft 1.21.4",
-      "icon": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/serverIMG.png",
-      "version": "1.0.0",
-      "address": "119.198.206.82:20002",
+      "id": "chosun-1.21.4-test",
+      "name": "조선야화2",
+      "description": "조선야화2 Running Minecraft 1.21.4 (Fabric v0.17.2)",
+      "icon": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servericon.png",
+      "version": "0.0.1",
+      "address": "118.56.93.18:20002",
       "minecraftVersion": "1.21.4",
       "discord": {
-        "shortId": "joy",
-        "largeImageText": "조선야화 접속 중",
-        "largeImageKey": "joy"
+        "shortId": "조선야화2",
+        "largeImageText": "조선야화2 서버",
+        "largeImageKey": "chosun"
+      },  
+      "javaOptions": {
+        "ram": {
+          "minimum": 3072,
+          "recommended": 6144
+        }
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
@@ -367,7 +373,7 @@
           "artifact": {
             "size": 1915305,
             "MD5": "72dd698d701202d46303fc913cfcbf23",
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
           },
           "subModules": [
             {
@@ -376,8 +382,8 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "42f8ea0a30a8d255996ba81df057905e",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/versions/1.21.4-fabric-0.17.2/1.21.4-fabric-0.17.2.json"
+                "MD5": "10115e3761301722b05ae64c1a04a0d7",
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/versions/1.21.4-fabric-0.17.2/1.21.4-fabric-0.17.2.json"
               }
             },
             {
@@ -387,7 +393,7 @@
               "artifact": {
                 "size": 126113,
                 "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
               }
             },
             {
@@ -397,7 +403,7 @@
               "artifact": {
                 "size": 35151,
                 "MD5": "3d63508405f5610fc2ea673ff5471553",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
               }
             },
             {
@@ -407,7 +413,7 @@
               "artifact": {
                 "size": 73498,
                 "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
               }
             },
             {
@@ -417,7 +423,7 @@
               "artifact": {
                 "size": 51934,
                 "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
               }
             },
             {
@@ -427,7 +433,7 @@
               "artifact": {
                 "size": 94559,
                 "MD5": "62498ef324bdab15f407d703f7d78d19",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
             {
@@ -437,7 +443,7 @@
               "artifact": {
                 "size": 1504156,
                 "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
               }
             },
             {
@@ -447,10 +453,23 @@
               "artifact": {
                 "size": 701826,
                 "MD5": "d0f4187a62328d4a95f3428434efbd48",
-                "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+                "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
               }
             }
           ]
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.4.5-b@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25472038,
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/optionalon/DistantHorizons-2.4.5-b-1.21.4-fabric-neoforge.jar",
+            "MD5": "fc565c0124b1b04b40f1c593848ef05e"
+          },
+          "required": {
+            "value": false
+          }
         },
         {
           "id": "io.github.kosmx.emotes:emotecraft:2.5.8@jar",
@@ -458,11 +477,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1259819,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/fabricmods/optionalon/emotecraft-fabric-for-MC1.21.4-2.5.8.jar",
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/emotecraft-fabric-for-MC1.21.4-2.5.8.jar",
             "MD5": "ecbcffd1aa9d83847e00da62fc45d9b3"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -471,7 +487,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2149128,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
             "MD5": "128a8d042180e7c92567342e21a21a6d"
           }
         },
@@ -481,21 +497,27 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2682702,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
             "MD5": "59d373e4874efbcb8fb426bdefa588d9"
           }
         },
         {
-          "id": "com.hyfata.najoan:koreanpatch:1.9.0+mc1.21.3@jar",
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514384,
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21.3@jar",
           "name": "Korean Patch",
           "type": "FabricMod",
           "artifact": {
-            "size": 595318,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/fabricmods/optionalon/koreanpatch-fabric-1.9.0+mc1.21.3.jar",
-            "MD5": "f06ab7fa4807353a7b725f4ad5dc86ba"
-          },
-          "required": {
-            "value": false
+            "size": 595769,
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.21.3.jar",
+            "MD5": "f5c52ca25f04821fd25a205fa870e1bf"
           }
         },
         {
@@ -514,48 +536,18 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1306799,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
             "MD5": "28922a78d1876ee062e3265f10abcc46"
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.21.4-2.6.4@jar",
+          "id": "de.maxhenkel:voicechat:1.21.4-2.6.11@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 5345801,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/fabricmods/required/voicechat-fabric-1.21.4-2.6.4.jar",
-            "MD5": "971a8e275e67e02ca4968e8c38b41ff9"
-          }
-        },
-        {
-          "id": "emotecraft.json",
-          "name": "emotecraft.json",
-          "type": "File",
-          "artifact": {
-            "size": 668,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/emotecraft.json",
-            "path": "config/emotecraft.json"
-          }
-        },
-        {
-          "id": "indigo-renderer.properties",
-          "name": "indigo-renderer.properties",
-          "type": "File",
-          "artifact": {
-            "size": 290,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/fabric/indigo-renderer.properties",
-            "path": "config/fabric/indigo-renderer.properties"
-          }
-        },
-        {
-          "id": "iris-excluded.json",
-          "name": "iris-excluded.json",
-          "type": "File",
-          "artifact": {
-            "size": 31,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/iris-excluded.json",
-            "path": "config/iris-excluded.json"
+            "size": 5348552,
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/fabricmods/required/voicechat-fabric-1.21.4-2.6.11.jar",
+            "MD5": "bab3037d20cb5664cbc41d61df5fc895"
           }
         },
         {
@@ -564,98 +556,8 @@
           "type": "File",
           "artifact": {
             "size": 312,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/iris.properties",
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/files/config/iris.properties",
             "path": "config/iris.properties"
-          }
-        },
-        {
-          "id": "koreanpatch.json5",
-          "name": "koreanpatch.json5",
-          "type": "File",
-          "artifact": {
-            "size": 1513,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/koreanpatch.json5",
-            "path": "config/koreanpatch.json5"
-          }
-        },
-        {
-          "id": "sodium-fingerprint.json",
-          "name": "sodium-fingerprint.json",
-          "type": "File",
-          "artifact": {
-            "size": 427,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/sodium-fingerprint.json",
-            "path": "config/sodium-fingerprint.json"
-          }
-        },
-        {
-          "id": "sodium-mixins.properties",
-          "name": "sodium-mixins.properties",
-          "type": "File",
-          "artifact": {
-            "size": 258,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/sodium-mixins.properties",
-            "path": "config/sodium-mixins.properties"
-          }
-        },
-        {
-          "id": "sodium-options.json",
-          "name": "sodium-options.json",
-          "type": "File",
-          "artifact": {
-            "size": 686,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/sodium-options.json",
-            "path": "config/sodium-options.json"
-          }
-        },
-        {
-          "id": "category-volumes.properties",
-          "name": "category-volumes.properties",
-          "type": "File",
-          "artifact": {
-            "size": 46,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/category-volumes.properties",
-            "path": "config/voicechat/category-volumes.properties"
-          }
-        },
-        {
-          "id": "player-volumes.properties",
-          "name": "player-volumes.properties",
-          "type": "File",
-          "artifact": {
-            "size": 44,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/player-volumes.properties",
-            "path": "config/voicechat/player-volumes.properties"
-          }
-        },
-        {
-          "id": "translations.properties",
-          "name": "translations.properties",
-          "type": "File",
-          "artifact": {
-            "size": 1182,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/translations.properties",
-            "path": "config/voicechat/translations.properties"
-          }
-        },
-        {
-          "id": "voicechat-client.properties",
-          "name": "voicechat-client.properties",
-          "type": "File",
-          "artifact": {
-            "size": 4898,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/voicechat-client.properties",
-            "path": "config/voicechat/voicechat-client.properties"
-          }
-        },
-        {
-          "id": "voicechat-server.properties",
-          "name": "voicechat-server.properties",
-          "type": "File",
-          "artifact": {
-            "size": 2441,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/config/voicechat/voicechat-server.properties",
-            "path": "config/voicechat/voicechat-server.properties"
           }
         },
         {
@@ -663,19 +565,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 4427,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/options.txt",
+            "size": 5733,
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/files/options.txt",
             "path": "options.txt"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 17304,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/servers.dat",
-            "path": "servers.dat"
           }
         },
         {
@@ -684,7 +576,7 @@
           "type": "File",
           "artifact": {
             "size": 456332,
-            "url": "https://raw.githubusercontent.com/BabyBear7/joy-distro/main/servers/joy-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "url": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servers/chosun-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
             "MD5": "576ef06da170458879f3a03e685d487a",
             "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
           }
