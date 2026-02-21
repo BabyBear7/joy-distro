@@ -345,9 +345,9 @@
       ]
     },
     {
-      "id": "chosun-1.21.4-test",
+      "id": "chosun-1.21.4-dev",
       "name": "조선야화2",
-      "description": "조선야화2 Running Minecraft 1.21.4 (Fabric v0.17.2)",
+      "description": "조선야화2 Running Minecraft 1.21.4 (Fabric v0.17.2)_dev",
       "icon": "https://raw.githubusercontent.com/BabyBear7/chosun-distro/main/servericon.png",
       "version": "0.0.1",
       "address": "118.56.93.18:20002",
